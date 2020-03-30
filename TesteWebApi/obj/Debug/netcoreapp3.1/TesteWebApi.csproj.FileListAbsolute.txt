@@ -40,8 +40,11 @@ E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
-E:\BlazorInLinux\TesteWebApi\obj\Debug\netcoreapp3.1\TesteWebApi.csproj.CoreCompileInputs.cache
-E:\BlazorInLinux\TesteWebApi\obj\Debug\netcoreapp3.1\TesteWebApi.MvcApplicationPartsAssemblyInfo.cache
 E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\BlazorInLinux\TesteWebApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\BlazorInLinux\TesteWebApi\obj\Debug\netcoreapp3.1\TesteWebApi.csproj.CoreCompileInputs.cache
+E:\BlazorInLinux\TesteWebApi\obj\Debug\netcoreapp3.1\TesteWebApi.MvcApplicationPartsAssemblyInfo.cache
 E:\BlazorInLinux\TesteWebApi\obj\Debug\netcoreapp3.1\TesteWebApi.csprojAssemblyReference.cache

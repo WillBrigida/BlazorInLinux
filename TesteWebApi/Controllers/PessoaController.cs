@@ -20,7 +20,9 @@ namespace TesteWebApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Models.Pessoa>>> GetCondominos()
         {
-            return await _db.Condomino.ToListAsync();
+            var t = await _db.Pessoa.ToListAsync();
+            
+            return  t;
         }
     }
 }

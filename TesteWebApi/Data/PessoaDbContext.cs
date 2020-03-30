@@ -7,6 +7,6 @@ namespace TesteWebApi.Data
     {
         public PessoaDbContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<Models.Pessoa> Condomino { get; set; }
+        public DbSet<Models.Pessoa> Pessoa { get; set; }
     }
 }
