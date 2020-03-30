@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebApi.Migrations
 {
-    public partial class InitialMigration : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,7 +48,7 @@ namespace WebApi.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Pessoa",
+                name: "Pessoa3",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -58,7 +58,7 @@ namespace WebApi.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Pessoa", x => x.Id);
+                    table.PrimaryKey("PK_Pessoa3", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -223,7 +223,7 @@ namespace WebApi.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Pessoa");
+                name: "Pessoa3");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

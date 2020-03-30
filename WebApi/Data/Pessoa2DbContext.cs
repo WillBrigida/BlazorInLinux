@@ -7,6 +7,6 @@ namespace WebApi.Data
     {
         public PessoaDbContext(DbContextOptions options) : base(options) { }
 
-        public DbSet<Models.Pessoa2> Pessoa2 { get; set; }
+        public DbSet<Models.Pessoa3> Pessoa3 { get; set; }
     }
 }

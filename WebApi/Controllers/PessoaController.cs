@@ -15,9 +15,9 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Models.Pessoa2>>> GetCondominos()
+        public async Task<ActionResult<List<Models.Pessoa3>>> GetCondominos()
         {
-            var t = await _db.Pessoa2.ToListAsync();
+            var t = await _db.Pessoa3.ToListAsync();
             
             return  t;
         }

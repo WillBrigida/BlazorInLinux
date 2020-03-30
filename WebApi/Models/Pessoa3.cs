@@ -1,6 +1,6 @@
 namespace WebApi.Models
 {
-    public class Pessoa2
+    public class Pessoa3
     {
         public int Id { get; set; }
         public string Nome { get; set; }
