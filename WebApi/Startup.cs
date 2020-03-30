@@ -21,9 +21,11 @@ namespace WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<Data.PessoaDbContext>(options => options.
+            // services.AddDbContext<Data.PessoaDbContext>(options => options.
+            services.AddDbContext<Data.AlunoDbContext>(options => options.
             UseMySql(_configuration.GetConnectionString("DefaultConnection"), mySqlOptions => mySqlOptions
             .ServerVersion("10.2.11-mariadb")));
+
             //UseMySql("server=localhost;user id=root;password=Arthuramordopai@02;database=pessoa_db", x => x.ServerVersion("10.2.11-mariadb")));
 
             services.AddMvc();
